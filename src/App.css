@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+a {
+  text-decoration: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li {
+  list-style: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* header */
+nav {
+  padding: 20px 80px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+nav li {
+  margin-left: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+/* main */
+.main-head {
+  display: block;
+  background-image: url('./imgs/header.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-container {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.text-container h1 {
+  font-family: 'Frank Ruhl Libre';
+  font-size: 130px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.text-container p {
+  font-size: 30px;
+  margin-top: 10px;
 }
