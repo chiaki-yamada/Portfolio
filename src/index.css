@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@800&family=Open+Sans:wght@300&display=swap');
 
-
-
 body {
   margin: 0;
   padding: 0;
@@ -18,3 +16,49 @@ body {
   font-family: 'Open Sans';
 }
 
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* header */
+nav {
+  padding: 20px 80px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li {
+  margin-left: 30px;
+}
+
+/* main */
+.main-head {
+  display: block;
+  background-image: url('./imgs/header.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+.text-container {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.text-container h1 {
+  font-family: 'Frank Ruhl Libre';
+  font-size: 130px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.text-container p {
+  font-size: 30px;
+  margin-top: 10px;
+}
