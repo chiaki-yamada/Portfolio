@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
 
 
-
 body {
   margin: 0;
   padding: 0;
@@ -27,7 +26,10 @@ p {
   color: #424242;
 }
 
-
+.title {
+  text-align: center;
+  font-family: 'BhuTuka Expanded One';
+}
 
 /* header */
 header {
@@ -65,12 +67,6 @@ nav li a {
 nav li a:hover {
   color: #0D47A1;
 }
-
-.title {
-  text-align: center;
-  font-family: 'BhuTuka Expanded One';
-}
-
 
 /* home */
 main {
@@ -166,11 +162,6 @@ h3 {
   height: auto;
 }
 
-.work-title,
-.work-desc {
-  margin-top: 10px;
-}
-
 .btn {
   display: inline-block;
   background-color: #0A306E;
@@ -215,4 +206,108 @@ footer {
   width: 20px;
   height: 20px;
   margin-right: 10px;
+}
+
+
+/* media queries */
+@media (min-width: 768px) {
+  main {
+    padding: 8% 12%
+  }
+  p, .skills-container li {
+    font-size: 1.2rem;
+  }
+  .title {
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+  nav {
+    padding: 30px 0;
+  }
+
+  /* home */
+  .main-title-container h1 {
+    font-size: 4rem;
+  }
+  .main-title {
+    font-size: 1.5rem;
+  }
+  .main-desc {
+    margin-top: 50px;
+  }
+
+  .main-img {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+  }
+  
+
+  /* about */
+  .about-container a{
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .skills-icon {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+  }
+
+  .work-title h3 {
+    font-size: 1.2rem;
+  }
+  .work-title p {
+    font-size: 1rem;
+  }
+  .work-experience {
+    margin-bottom: 70px;
+  }
+  
+  /* works */
+  .works-container {
+    margin: 10% 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+  }
+  .site-title {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  /* home */
+  .text-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-title-container {
+    width: 60%;
+    margin-top: auto;
+  }
+  .main-img-container {
+    margin-top: auto;
+    
+  }
+  .main-img {
+    width: 300px;
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* works */
+  .works-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
 }

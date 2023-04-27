@@ -16,7 +16,7 @@ function About() {
       <div className="about-container">
         <h2>Konnichiwa!</h2>
         <p>Hi I’m Chiaki, a passionate front-end developer in training with a desire to start my career in the tech industry. While I don’t have direct experience in front-end development, I have gained valuable skills through working with a developer to create a new website for the organization where I was previously working for. I managed the project, helped design, created content, and maintained the site.</p>
-        <p>I obtained a <a href='https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/71780354' target="_blank">Front End Web Development Techdegree Certificate</a> from online course, treehouse.</p>
+        <p>I obtained a <a href='https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/71780354' target="_blank" rel="noreferrer">Front End Web Development Techdegree Certificate</a> from online course, treehouse.</p>
         <p>I’m excited to continue learning and growing as a front-end developer and look forward to contributing to exciting projects in the future!</p>
       </div>
 
@@ -26,7 +26,8 @@ function About() {
           <li>Proficient with HTML, CSS, JavaScript, React, Bootstrap</li>
           <li>Creating responsive design and mobile-first websites</li>
           <li>Building applications using API</li>
-          <li>Experience with WordPress</li>
+          <li>Utilizing AI tool such as GitHub Copilot </li>
+          <li>Proficient with WordPress to manege website</li>
           <li>Designing mockups and wireframes with Figma</li>
         </ul>
         <div className='skills-icon'>
@@ -38,6 +39,7 @@ function About() {
           <img src={wordpressIcon} className='icon' alt='wordpress-icon'></img>
           <img src={figmaIcon} className='icon' alt='figma-icon'></img>
           <img src={photoshopIcon} className='icon' alt='photoshop-icon'></img>
+          
         </div>
       </div>
 

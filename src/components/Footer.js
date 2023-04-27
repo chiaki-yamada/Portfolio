@@ -10,10 +10,6 @@ function Footer() {
           <p>Contact:</p>
           <a href="mailto:jian88.c26@gmail.com">jian88.c26@gmail.com</a>
         </div>
-        <div className="footer-links">
-          
-        
-        </div>
       </div>         
     </footer>
   )
