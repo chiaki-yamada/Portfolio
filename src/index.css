@@ -132,6 +132,11 @@ main {
 .skills-container {
   color: #424242;
 }
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
 
 .work-experience {
   margin-top: 40px;
@@ -188,13 +193,26 @@ footer {
 }
 
 .footer-container {
-  padding: 0 5%;
+  padding: 10%;
 }
 
 .footer-contact {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.footer-contact a {
+  font-size: 16px;
+  color: black;
+  margin-left: 10px;
+}
+.footer-contact a:hover {
+  color: #0D47A1;
 }
 
-.footer-contact p a {
-  font-size: 16px;
+.footer-links img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }

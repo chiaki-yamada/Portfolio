@@ -1,4 +1,12 @@
 import React from 'react'
+import htmlIcon from '../imgs/html.svg'
+import cssIcon from '../imgs/css.svg'
+import javascriptIcon from '../imgs/javascript.svg'
+import reactIcon from '../imgs/react.svg'
+import bootstrapIcon from '../imgs/bootstrap.svg'
+import figmaIcon from '../imgs/figma.svg'
+import wordpressIcon from '../imgs/wordpress.svg'
+import photoshopIcon from '../imgs/photoshop.svg'
 
 function About() {
   return (
@@ -21,6 +29,16 @@ function About() {
           <li>Experience with WordPress</li>
           <li>Designing mockups and wireframes with Figma</li>
         </ul>
+        <div className='skills-icon'>
+          <img src={htmlIcon} className='icon' alt='html-icon'></img>
+          <img src={cssIcon} className='icon' alt='css-icon'></img>
+          <img src={javascriptIcon} className='icon' alt='javascript-icon'></img>
+          <img src={reactIcon} className='icon' alt='react-icon'></img>
+          <img src={bootstrapIcon} className='icon' alt='bootstrap-icon'></img>
+          <img src={wordpressIcon} className='icon' alt='wordpress-icon'></img>
+          <img src={figmaIcon} className='icon' alt='figma-icon'></img>
+          <img src={photoshopIcon} className='icon' alt='photoshop-icon'></img>
+        </div>
       </div>
 
       <div className="work-container">
