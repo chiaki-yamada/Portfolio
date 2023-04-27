@@ -5,7 +5,7 @@ function Works() {
   return (
     <main>
       <h1 className='title'>WORKS</h1>
-      <p>Here are some my works in web design and front-end development focusing on user-friendly design.</p>
+      <p className='works-intro'>Here are some my works in web design and front-end development focusing on user-friendly design.</p>
 
       <div className='works-container'>
         <div className='work'>

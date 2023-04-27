@@ -156,7 +156,9 @@ h3 {
   text-align: center;
   margin-bottom: 20px;
 }
-
+.works-intro {
+  text-align: center;
+}
 .work-img {
   width: 95%;
   height: auto;
@@ -300,7 +302,6 @@ footer {
   }
   .main-img {
     width: 300px;
-    margin-left: 10%;
   }
 }
 
