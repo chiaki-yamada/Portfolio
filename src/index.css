@@ -166,23 +166,25 @@ h3 {
 
 .btn {
   display: inline-block;
-  background-color: #0A306E;
+  background-color:white;
   font-weight: bold;
-  color: #ffff;
+  color: black;
   border-radius: 5px;
-  border: none;
+  border: 1px solid black;
   padding: 10px 20px;
 }
 
 .btn:hover {
-  background-color: #0D47A1;
-  color: #ffff;
+  background-color:black;
+  color: white;
+  
 }
 
 
 /* footer */
 footer {
   border-top: 1px solid black;
+  
 }
 
 .footer-contact {
