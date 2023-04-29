@@ -1,6 +1,5 @@
 import React from 'react'
-import linkedinIcon from '../imgs/linkedin.svg'
-import githubIcon from '../imgs/github.svg'
+import footerImg from '../imgs/footer.jpg'
 
 function Footer() {
   return (
@@ -10,7 +9,10 @@ function Footer() {
           <p>Contact:</p>
           <a href="mailto:jian88.c26@gmail.com">jian88.c26@gmail.com</a>
         </div>
-      </div>         
+      </div> 
+      <div className="footer-img">
+        <img src={footerImg} className="footer-img" alt="footer-img"></img>
+      </div> 
     </footer>
   )
 }

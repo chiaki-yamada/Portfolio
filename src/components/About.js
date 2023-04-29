@@ -12,8 +12,7 @@ function About() {
   return (
     <main>
       <h1 className='title'>ABOUT</h1>
-
-      <div className="about-container">
+      <div className="about-container">       
         <h2>Konnichiwa!</h2>
         <p>Hi I’m Chiaki, a passionate front-end developer in training with a desire to start my career in the tech industry. While I don’t have direct experience in front-end development, I have gained valuable skills through working with a developer to create a new website for the organization where I was previously working for. I managed the project, helped design, created content, and maintained the site.</p>
         <p>I obtained a <a href='https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/71780354' target="_blank" rel="noreferrer">Front End Web Development Techdegree Certificate</a> from online course, treehouse.</p>
