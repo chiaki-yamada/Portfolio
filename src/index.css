@@ -15,7 +15,8 @@ body {
 
 * {
   font-family: 'Playfair Display';
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 a {
@@ -86,7 +87,7 @@ main {
 
 .text-container h1 {
   font-family: 'BhuTuka Expanded One';
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 0;
@@ -95,7 +96,6 @@ main {
 .main-title {
   font-family: 'BhuTuka Expanded One';
   font-weight: bold;
-  font-size: 1.15rem;
   color: black;
   margin-top: 10px;
 }
@@ -292,15 +292,44 @@ footer {
   }
   .main-img-container {
     margin-top: auto;
-    
+  }
+  .main-title-container h1 {
+    font-size: 3.5rem;
+  }
+  
+  .main-title {
+    font-size: 1.25rem;
   }
   .main-img {
-    width: 300px;
+   width: 325px;
+  }
+  .main-desc {
+    width: 90%;
   }
 }
 
 @media (min-width: 1280px) {
+
+  /* home */
+  
+  .main-title-container h1 {
+    font-size: 4rem;
+  }
+  
+  .main-title {
+    font-size: 1.5rem;
+  }
+  .main-img {
+   width: 400px;
+  }
+  /* about */
+  .about-container, .skills-container, .work-container{
+    padding: 0 12%;
+  }
   /* works */
+  .works-intro {
+    padding: 0 12%;
+  }
   .works-container {
     grid-template-columns: repeat(3, 1fr);
   }
