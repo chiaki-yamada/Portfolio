@@ -14,7 +14,7 @@ function About() {
       <h1 className='title'>ABOUT</h1>
       <div className="about-container">       
         <h2>Konnichiwa!</h2>
-        <p>Hi I’m Chiaki, a self-taught web developer with a passion for creating beautiful and functional websites.</p> 
+        <p>Hi I’m Chiaki, a self-taught web developer with a passion for creating intuitive and functional websites.</p> 
         <p>My coding journey began when I was in my previous role as a communications coordinator. I had the opportunity to work with a front-end developer to build and design a new website from the ground up tailored to the needs of the organization. Watching the site take shape was very exciting, and it left me with a burning desire to learn more about web development. <br></br>Since then, I started taking courses to gain the skills necessary to create a website on my own and have been studying at every chance I got. Recently, I completed <a href='https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/71780354' target="_blank" rel="noreferrer">a formal degree</a> in front-end web development.</p>
         <p>I believe my previouse role in creating social media, newsletters, and website posts also helped me home in on my eye for design and creative abilities. </p>
         <p>I’m excited to continue learning and growing as a front-end developer and look forward to contributing to exciting projects in the future!</p>
@@ -75,7 +75,7 @@ function About() {
             <p>Tominari Elementary School, Fukushima, Japan<br></br>2013 Apr - 2018 Mar</p>
           </div>
           <div className='work-desc'>
-            <p>n charge of a wide range of duties for public schools with around 30 teachers and 200 students. Fully responsible for financial accounting and budget management and acting as the first point of contact for the school board, students’ guardians as well as visitors.</p>
+            <p>In charge of a wide range of duties for public schools with around 30 teachers and 200 students. Fully responsible for financial accounting and budget management and acting as the first point of contact for the school board, students’ guardians as well as visitors.</p>
           </div>
         </div>
       </div>

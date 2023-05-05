@@ -1,6 +1,6 @@
 import React from 'react'
-import schoolWebsite from '../imgs/vjls-jh.png'
-import movieWatchlist from '../imgs/movie-watchlist.png'
+import schoolWebsite from '../imgs/vjls-jh.jpg'
+import movieWatchlist from '../imgs/movie-watchlist.jpg'
 
 function Works() {
   return (
